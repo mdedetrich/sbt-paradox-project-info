@@ -24,10 +24,10 @@ class ReadinessLevelSpec extends FlatSpec {
 
   "String values" should "read correctly" in {
     val values = Map(
-      "EndOfLife" -> EndOfLife,
-      "Supported" -> Supported,
+      "EndOfLife"       -> EndOfLife,
+      "Supported"       -> Supported,
       "CommunityDriven" -> CommunityDriven,
-      "Incubating" -> Incubating
+      "Incubating"      -> Incubating
     )
     for {
       (s, expected) <- values
